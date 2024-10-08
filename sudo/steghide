@@ -1,0 +1,2 @@
+steghide embed -cf <cover_image> -ef <payload_file> -sf <output_image> -p <password> -Z
+steghide extract -sf <stego_image> -p <password>

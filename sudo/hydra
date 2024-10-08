@@ -1,0 +1,5 @@
+hydra -l <username> -p <password> <target>
+Brute force attack
+hydra -l admin -P /path/to/passwords.txt ssh://target_ip
+Dictionary attack
+hydra -l user -P /path/to/passwords.txt ftp://target_ip

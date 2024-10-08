@@ -1,0 +1,4 @@
+Use "ip link show" to view the network interface
+tshark -i <interface_name> -c 100
+tshark -i <interface_name> -c 100 -w filename
+Analyze saved capture files using tshark -r capture.pcap

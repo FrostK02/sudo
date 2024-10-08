@@ -1,0 +1,1 @@
+httrack --depth=2 --disable-security-limits --maxrate=100000 [Website_URL]
